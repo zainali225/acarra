@@ -15,28 +15,31 @@ const Service = () => {
                         <div className="">
                             <h1 className="mb-1 text-[#262626] font-bold">Japanese lessons</h1>
                             <div className="flex items-center gap-2 text-[#718096]">
-                                <img className="h-3" src="/vector.png" alt="" />
+                                <img className="h-3.5" src="/vector.png" alt="" />
                                 <p className="text-xs">Nov 7 2020 11:30</p>
                             </div>
                             <div className="flex items-center gap-2 text-[#718096]">
-                                <img className="h-3" src="/vector (1).png" alt="" />
+                                <img className="h-3.5" src="/vector (1).png" alt="" />
                                 <p className="text-[#718096] text-xs mb-1">Client's place</p>
                             </div>
                             <h1 className="mb-1 text-[#262626] font-bold">Rp 350.000</h1>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="">
                     <TextInput placeholder={"Enter address"} customClass="outline-none" labelText={"Enter your location"} inputStyle={"outline-none border-[1px] border-[#D3DEE9] !h-12"} />
-                    <TextInput placeholder={"Enter text here"} customClass="outline-none" labelText={"Note (optional)"} labelStyle={"mt-10"} inputStyle={"outline-none border-[1px] border-[#D3DEE9] !h-12"} />
+                    <TextInput placeholder={"Enter text here"} customClass="outline-none" labelText={"Note (optional)"} labelStyle={""} inputStyle={"outline-none border-[1px] border-[#D3DEE9] !h-12"} />
                 </div>
                 <div>
                     <h1 className="text-[#262626] py-5 mt-8 font-bold text-xl">Choose a way to pay</h1>
                 </div>
-                <div className="flex flex-wrap justify-between gap-y-6 my-2">
-                    <Button customClass="border w-[47%] font-semibold !h-12 rounded md text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black" text={"Credit card"} />
-                    <Button customClass="border w-[47%] font-semibold !h-12 rounded md text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black" text={"Cash"} />
-                    <Button customClass="border w-[47%] font-semibold !h-12 rounded md px-5 text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black" text={"eWallet/Virtual bank"} />
+                <div className="flex justify-betwee my-2">
+                    <Button customClass="border  mr-2 font-semibold !h-12 rounded md text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black w-1/2" text={"Credit card"} />
+                    <Button customClass="border ml-2 font-semibold !h-12 rounded md text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black w-1/2" text={"Cash"} />
+                </div>
+                <div className="w-[48%]">
+                    <Button customClass="border font-semibold !h-12 rounded md px-5 text-[#262626] bg-[#EDF2F7] hover:bg-white hover:border-black" text={"eWallet/Virtual bank"} />
+
                 </div>
                 <div className="flex gap-2 px- mt-4">
                     <div><input type="checkbox" /></div>

@@ -21,7 +21,7 @@ const TextInput = ({
 	...props
 }) => {
 	return (
-		<div className={`h-14 ${containerStyle} `}>
+		<div className={` ${containerStyle} `}>
 			<label className={`  `} htmlFor={id}>
 				<div className={` margin_label my-2 mt-3 font-semibold text-[#262626] ${labelStyle}`}>{labelText}</div>
 				<div className=" h-full ">
